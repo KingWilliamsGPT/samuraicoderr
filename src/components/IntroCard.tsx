@@ -26,12 +26,13 @@ export default function IntroCard() {
     return (
         <div className="mt-8 md:mt-10">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl aspect-square md:aspect-[16/9]">
+
                 {/* Background image and overlay */}
                 <div className="absolute inset-0 z-0">
                     <img
                         alt="Background"
                         decoding="async"
-                        className="object-cover"
+                        className="object-cover filter sm:blur-none blur-sm"
                         src="/me-with-girls.jpg"
                         style={{
                             position: 'absolute',

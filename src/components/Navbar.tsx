@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="z-50 mx-auto flex w-full max-w-screen-lg items-center pt-9 font-mono">
-            <a className="text-lg font-black text-neutral-800 duration-300 motion-reduce:transition-none dark:text-white mr-6" href="/">SZ<span className="bg-gradient-to-r from-[#6310ff] to-[#14291ff] box-decoration-clone bg-clip-text text-fill-transparent dark:from-[#a2facf] dark:to-[#64acff]">.</span></a>
+            <a className="text-lg font-black text-neutral-800 duration-300 motion-reduce:transition-none dark:text-white mr-6" href="/">@samuraicoderr</a>
             <div className="flex flex-grow justify-start">
                 <div className="hidden gap-4 lg:inline-flex items-center">
                     <a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 bg-black/10 dark:bg-white/10 dark:text-neutral-200" href="/">Home</a><a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/work">My work</a><a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/blog">Blog</a>
