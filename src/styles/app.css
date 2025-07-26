@@ -95,3 +95,12 @@
   animation: wave 1.6s ease-in-out infinite;
   transform-origin: 70% 70%;
 }
+
+
+
+.hide-w-434 {
+  @media (max-width: 434px) {
+    /* display: none; */
+    opacity: .5;
+  }
+}

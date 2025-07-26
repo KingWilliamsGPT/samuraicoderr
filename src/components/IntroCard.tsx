@@ -50,7 +50,7 @@ export default function IntroCard() {
                 </div>
 
                 {/* Testimonial floating card (desktop only) */}
-                <div className="absolute inset-0 z-10 hidden min-w-494:block pointer-events-none">
+                <div className="absolute inset-0 z-10 hide-w-434 pointer-events-none">
                     <div className="relative w-full h-full max-w-7xl mx-auto px-4">
                         <TestimonialCard
                             testimonial={{
