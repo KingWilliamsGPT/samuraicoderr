@@ -27,7 +27,7 @@ export default function Footer() {
                     </Link>
                     <Link target="_blank" className="mt-1 flex duration-100 hover:text-neutral-700 hover:underline motion-reduce:transition-none dark:hover:text-neutral-300"
                         href={ Me.twitter }>
-                        <Twitter size={ 20 } /> <span>X</span>
+                        X
                     </Link>
                     <Link target="_blank" className="mt-1 block duration-100 hover:text-neutral-700 hover:underline motion-reduce:transition-none dark:hover:text-neutral-300"
                         href={ Me.github }>

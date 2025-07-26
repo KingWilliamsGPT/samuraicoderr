@@ -1,0 +1,20 @@
+{
+  "name": "Williams' Portfolio",
+  "short_name": "Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/cropped-me.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/cropped-me.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -4,6 +4,8 @@ import React from 'react';
 import TestimonialCard from './TestimonialCard';
 import { Globe } from 'lucide-react';
 
+import Me from "@/lib/me";
+
 export default function IntroCard() {
     const [isMobile, setIsMobile] = React.useState(false);
 
@@ -51,7 +53,7 @@ export default function IntroCard() {
                 </div>
 
                 {/* Testimonial floating card (desktop only) */}
-                <div className="absolute inset-0 z-10 hide-w-434 pointer-events-none">
+                <div className="absolute inset-0 z-10 hide-w-434">
                     <div className="relative w-full h-full max-w-7xl mx-auto px-4">
                         <TestimonialCard
                             testimonial={{
@@ -59,7 +61,7 @@ export default function IntroCard() {
                                 name: 'Williams Samuel',
                                 handle: 'samuraicoderr',
                                 avatar: '/me.jpg',
-                                linkedinUrl: 'https://www.linkedin.com/in/samuraicoderr/',
+                                linkedinUrl: Me.linkedin,
                                 content: "Software development is not just about creating software, it's an <b>art of problem-solving</b> and innovation, one of the many reasons I exists",
                                 verified: true,
                                 likes: "2k",
