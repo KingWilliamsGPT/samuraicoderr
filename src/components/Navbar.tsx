@@ -1,10 +1,14 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <nav className="z-50 mx-auto flex w-full max-w-screen-lg items-center pt-9 font-mono">
-            <a className="text-lg font-black text-neutral-800 duration-300 motion-reduce:transition-none dark:text-white mr-6" href="/">@samuraicoderr</a>
+            <Link className="text-lg font-black text-neutral-800 duration-300 motion-reduce:transition-none dark:text-white mr-6" href="/">@samuraicoderr</Link>
             <div className="flex flex-grow justify-start">
                 <div className="hidden gap-4 lg:inline-flex items-center">
-                    <a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 bg-black/10 dark:bg-white/10 dark:text-neutral-200" href="/">Home</a><a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/work">My work</a><a className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/blog">Blog</a>
+                    <Link className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 bg-black/10 dark:bg-white/10 dark:text-neutral-200" href="/">Home</Link>
+                    <Link className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/work">My work</Link>
+                    <Link className="relative rounded-md px-2 py-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-400" href="/blog">Blog</Link>
                     <div className="relative" data-headlessui-state="">
                         <button className="group relative hidden rounded-md p-1 text-neutral-700 transition-all duration-200 hover:bg-black/10 hover:text-neutral-800 ui-open:bg-black/10 ui-open:text-neutral-800 motion-reduce:transition-none dark:text-neutral-400 dark:hover:bg-white/10 dark:hover:text-neutral-200 dark:ui-open:bg-white/10 dark:ui-open:text-neutral-200 sm:px-3 sm:py-2 md:flex md:items-center" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:Rrk6lb:">
                             <span>More</span>

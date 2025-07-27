@@ -17,7 +17,7 @@ const eslintConfig = [
     rules: {
       "react/no-unescaped-entities": "off",
       "@typescript-eslint/no-explicit-any": "off",
-      "@next/next/no-html-link-for-pages": "off",
+      // "@next/next/no-html-link-for-pages": "off",
     },
   },
 ];
